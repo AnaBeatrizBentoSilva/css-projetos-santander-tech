@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+}
+
+table, td, th{
+    border: 1px solid black;
+}
+
+table{
+    font-size: 2.4rem;
+    border-collapse: separate;
+}
+
+table tr:first-child{
+    background-color: steelblue;
+    color: #fff;
+}
+
+table tr:nth-child(2n+3){
+    background-color: #AAA;
+}
+
+h1{
+    color: #7f0888; 
+    font-size: 96px;
+    font-size: 9.6rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Comic Neue", arial, cursive;
+}
+
+.bg-img{
+    height: 500px;
+    width: 100vw;
+    background-image: url('https://images.unsplash.com/photo-1709884735626-63e92727d8b6?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+ul, ol{
+    padding-left: 3.2rem;
+}
+
+ul{
+    list-style: square;
+}
+
+ol{
+    list-style: upper-roman;
+}
+
+.box{
+    height: 10rem;
+    width: 20rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background-color: blue;
+    color: #fff;
+    border: 10px solid red;
+    display: inline-block;
+    border-radius: 0.4rem;
+}
+
+img{
+    height: 14rem;
+    width: 14rem;
+    object-fit: cover;
+}
+
+p{
+    font-size: 1.8rem;
+    text-align: justify;
+    text-indent: 90px;
+}

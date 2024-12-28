@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+}
+
+table, td, th{
+    border: 1px solid black;
+}
+
+table{
+    font-size: 2.4rem;
+    border-collapse: separate;
+}
+
+table tr:first-child{
+    background-color: steelblue;
+    color: #fff;
+}
+
+table tr:nth-child(2n+3){
+    background-color: #AAA;
+}
+
+h1{
+    color: #7f0888; 
+    font-size: 96px;
+    font-size: 9.6rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Comic Neue", arial, cursive;
+}
+
+.bg-img{
+    height: 20vh;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1709884735626-63e92727d8b6?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1{
+    /* display: none; */
+    /* visibility: hidden; */
+    /* opacity: 0; */
+}
+
+a{
+    background: steelblue;
+    color: #fff;
+    border: none;
+    font-size: 2.8rem;
+    padding: 0.6rem 2.4rem;
+    cursor: pointer;
+    margin: auto;
+    width: 80%;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    transition: all .2s ease-in-out, background-color 1s ease-in-out;
+ 
+}
+
+.spinner-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-spinner{
+    margin-top: 3rem;
+    margin: 4rem;
+    font-size: 5rem;
+    color: blueviolet;
+    animation: load 1s infinite;
+}
+
+@keyframes load{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+
+[data-anchor="products"]{
+    /* transform: scale(1.2) rotate(30deg) translate(10rem); */
+    /* display: none; */
+    /* visibility: hidden; */
+    /* opacity: 0; */
+}
+
+[data-anchor="products"]:hover{
+    background-color: aqua;
+    color: #fff;
+    transform: scale(1.2);
+}
+
+[data-anchor="team"]{
+   margin-top: 2rem;
+   animation: pulse 2s infinite;
+   animation-fill-mode: forwards;
+   animation-direction: alternate;
+   transform: scale(1);
+}
+
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.35);
+        opacity: 0.6;
+    }
+}
+
+[data-company]{
+    background-color: aqua;
+}
+
+@media screen and (min-width: 1000px) {
+    .bg-img{
+        height: 40vh;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+    .bg-img{
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    table{
+        display: none;
+    }
+    h1{
+        color: red;
+    }
+}
+
+@media print{
+    .bg-img{
+        display: none;
+    }
+}
