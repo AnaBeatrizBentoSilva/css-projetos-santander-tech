@@ -55,4 +55,4 @@ Cada pasta representa um projeto individual com o seguinte formato:
 │   ├── cadastro-entidade.html
 │   ├── index.html
 │   └── styles.css
-.
+└── README.md
