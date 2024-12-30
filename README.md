@@ -3,7 +3,7 @@
 Este repositório contém os projetos desenvolvidos durante o curso de Frontend oferecido pelo Santander Tech+ em parceria com a ADA. Cada projeto foi criado para aplicar e consolidar os conhecimentos adquiridos ao longo do curso.
 
 ## Conteúdo
-O curso de CSS oferece uma compreensão abrangente e prática de CSS, fundamentando as habilidades para criar designs responsivos e dinâmicos para a web.
+O curso de CSS apresenta uma compreensão abrangente e prática de CSS, fundamentando as habilidades para criar designs responsivos e dinâmicos para a web.
 
 - **Cores, Background e Textos**
 - **Fontes, Medidas e Links**
